@@ -12,8 +12,7 @@
     "generate": "drizzle-kit generate:pg",
     "drop": "drizzle-kit drop",
     "check": "drizzle-kit check:pg",
-    "up": "drizzle-kit up:pg",
-    "migrate": "bun run src/lib/supabase/migration.ts"
+    "up": "drizzle-kit up:pg"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
